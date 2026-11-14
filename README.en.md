@@ -66,13 +66,21 @@ real anonymized example: `gouvernance/matrice-acces.md` and
 
 ## What broke
 
-Four real incidents, picked from 27 found since February 2026.
+Five real incidents, picked from 27 found since February 2026.
 
 **May 3, 2026.** A file search was launched blocking in the main session
 instead of being detached in the background. *Cause*: no rule distinguished
 short tasks from long ones. *Fix*: any task over 30 seconds now runs in the
 background, with an immediate acknowledgement. *Rule that came out of it*: an
 agent must never go silent for more than a few seconds, even mid-task.
+
+**May 3, 2026 (second incident that day).** A long-task protocol, entirely
+invented by the agent (upfront announcement, automatic progress checkpoints,
+process locking), was put in place without any instruction asking for it.
+*Cause*: an initiative taken to anticipate an assumed need, never validated
+by me. *Fix*: the protocol was entirely removed the same day. *Rule that came
+out of it*: an agent does not invent its own protocol, it executes what is
+asked and flags what it proposes before applying it.
 
 **May 17, 2026.** Two chained messages arrived out of order, one of them
 duplicated. *Cause*: a failed send was blindly retried as a whole batch
@@ -104,7 +112,7 @@ that I use.
 
 What is genuinely mine: the two-circle architecture, the role split, the 121
 custom skills that encode my own rules and lessons learned the hard way, the
-governance guardrails, and the operating discipline that produced the four
+governance guardrails, and the operating discipline that produced the five
 incidents above, and their fixes.
 
 What remains fragile: governance matured over time, not from day one. The

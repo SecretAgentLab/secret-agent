@@ -67,7 +67,7 @@ laisse une trace relisible. Détail et exemple réel anonymisé :
 
 ## Ce qui a cassé
 
-Quatre incidents réels, choisis parmi 27 retrouvés depuis février 2026.
+Cinq incidents réels, choisis parmi 27 retrouvés depuis février 2026.
 
 **03 mai 2026.** Une recherche de fichiers a été lancée en blocage dans la
 session principale au lieu d'être détachée en arrière-plan. *Cause* : aucune
@@ -75,6 +75,15 @@ règle ne distinguait les tâches courtes des tâches longues. *Correctif* : tou
 tâche de plus de 30 secondes part désormais en tâche de fond, avec un retour
 immédiat. *Règle qui en est sortie* : un agent ne doit jamais rester silencieux
 plus de quelques secondes, même en plein travail.
+
+**03 mai 2026 (second incident du jour).** Un protocole de gestion des tâches
+longues, entièrement inventé par l'agent (annonce préalable, points d'étape
+automatiques, verrouillage de processus), a été mis en place sans qu'aucune
+instruction ne le demande. *Cause* : une initiative prise pour anticiper un
+besoin supposé, jamais validée par moi. *Correctif* : le protocole a été
+entièrement retiré le jour même. *Règle qui en est sortie* : un agent
+n'invente pas son propre protocole, il exécute ce qui est demandé et signale
+ce qu'il propose avant de l'appliquer.
 
 **17 mai 2026.** Deux messages postés en chaîne sont arrivés dans le désordre
 et l'un en double. *Cause* : un envoi en échec a été relancé en bloc sans
@@ -109,7 +118,7 @@ outils existants, excellents, que j'utilise.
 Ce qui est réellement de moi : l'architecture en deux cercles, la répartition
 des rôles, les 121 skills sur mesure qui encodent mes propres règles et mes
 propres pièges appris, les garde-fous de gouvernance, et la discipline
-d'exploitation qui a produit les quatre incidents ci-dessus, et leurs
+d'exploitation qui a produit les cinq incidents ci-dessus, et leurs
 correctifs.
 
 Ce qui reste fragile : la gouvernance a mûri avec le temps, pas dès le départ.
