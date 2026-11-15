@@ -77,7 +77,10 @@ Les règles concrètes qui en découlent, copiables pour votre propre flotte :
 ## Ce qui a cassé
 
 Cinq incidents réels, choisis parmi 27 retrouvés depuis février 2026.
-L'histoire complète, racontée, en PDF : `etude-de-cas.pdf`.
+L'histoire complète, racontée, en PDF : `etude-de-cas.pdf`. Le détail
+technique complet, par incident, au gabarit Problème/Symptômes/
+Conséquences/Solution/Règle : `incidents/` (7 publiés, d'autres à venir
+par vagues).
 
 **03 mai 2026.** Une recherche de fichiers a été lancée en blocage dans la
 session principale au lieu d'être détachée en arrière-plan. *Cause* : aucune

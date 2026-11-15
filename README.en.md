@@ -75,7 +75,9 @@ code that applies these principles: `code/`.
 ## What broke
 
 Five real incidents, picked from 27 found since February 2026. The full
-story, told, in PDF: `etude-de-cas.pdf` (French).
+story, told, in PDF: `etude-de-cas.pdf` (French). Full technical detail
+per incident, template Problem/Symptoms/Consequences/Fix/Rule:
+`incidents/` (7 published, more coming in waves).
 
 **May 3, 2026.** A file search was launched blocking in the main session
 instead of being detached in the background. *Cause*: no rule distinguished
