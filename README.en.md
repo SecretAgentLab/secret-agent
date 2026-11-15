@@ -19,18 +19,7 @@ what broke along the way, not a demo.
 
 ## Org chart
 
-```mermaid
-flowchart TB
-    G[Governance<br/>access rules, traceability, audits]
-    CD[Leadership committee<br/>Morpheus · Trinity · Neo]
-    EX[Experts<br/>Atlas · Lingua · Warren · Joshua · Aria]
-    GN[Generalists<br/>Orson · Hermes]
-    CD --> EX
-    EX --> GN
-    G <-.-> CD
-    G <-.-> EX
-    G <-.-> GN
-```
+![Org chart: Governance overseeing Leadership committee, Experts, Generalists](assets/organigramme.svg)
 
 Three levels, not two side-by-side circles: the leadership committee steers
 and arbitrates, Experts each own a dedicated domain, Generalists (Orson,

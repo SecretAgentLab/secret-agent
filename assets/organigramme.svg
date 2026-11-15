@@ -1,0 +1,58 @@
+<svg width="720" height="620" viewBox="0 0 720 620" xmlns="http://www.w3.org/2000/svg" font-family="'JetBrains Mono', 'SF Mono', monospace">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="0.5"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#64748b"/>
+    </marker>
+    <marker id="arrowAmber" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#fbbf24"/>
+    </marker>
+  </defs>
+
+  <rect width="720" height="620" fill="#020617"/>
+  <rect width="720" height="620" fill="url(#grid)"/>
+
+  <!-- Liaisons gouvernance (double sens, pointilles ambre), ancrees sur le bord gauche de chaque boite -->
+  <path d="M 210 75 C 110 130, 110 160, 210 200" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,4" marker-start="url(#arrowAmber)" marker-end="url(#arrowAmber)"/>
+  <path d="M 210 75 C 70 180, 70 280, 210 360" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,4" marker-start="url(#arrowAmber)" marker-end="url(#arrowAmber)"/>
+  <path d="M 210 75 C 30 230, 30 440, 210 520" fill="none" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,4" marker-start="url(#arrowAmber)" marker-end="url(#arrowAmber)"/>
+
+  <!-- Fleches de cascade (plein, gris-bleu), entre le bas d'une boite et le haut de la suivante -->
+  <line x1="360" y1="240" x2="360" y2="316" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="360" y1="400" x2="360" y2="476" stroke="#64748b" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Gouvernance -->
+  <rect x="210" y="40" width="300" height="70" rx="10" fill="#0f172a"/>
+  <rect x="210" y="40" width="300" height="70" rx="10" fill="rgba(120,53,15,0.35)" stroke="#fbbf24" stroke-width="1.5"/>
+  <text x="360" y="68" text-anchor="middle" fill="#fbbf24" font-size="13" font-weight="700" letter-spacing="0.08em">GOUVERNANCE</text>
+  <text x="360" y="88" text-anchor="middle" fill="#cbd5e1" font-size="10">regles d'acces, tracabilite, audits</text>
+  <text x="360" y="102" text-anchor="middle" fill="#94a3b8" font-size="9">encadre les trois niveaux, double sens</text>
+
+  <!-- Comite de direction -->
+  <rect x="210" y="200" width="300" height="80" rx="10" fill="#0f172a"/>
+  <rect x="210" y="200" width="300" height="80" rx="10" fill="rgba(136,19,55,0.35)" stroke="#fb7185" stroke-width="1.5"/>
+  <text x="360" y="226" text-anchor="middle" fill="#fb7185" font-size="13" font-weight="700" letter-spacing="0.08em">COMITE DE DIRECTION</text>
+  <text x="360" y="247" text-anchor="middle" fill="#e2e8f0" font-size="11">Morpheus &#183; Trinity &#183; Neo</text>
+  <text x="360" y="264" text-anchor="middle" fill="#94a3b8" font-size="9">pilote, arbitre, appel inter-agents (Trinity)</text>
+
+  <!-- Experts -->
+  <rect x="210" y="360" width="300" height="80" rx="10" fill="#0f172a"/>
+  <rect x="210" y="360" width="300" height="80" rx="10" fill="rgba(6,78,59,0.35)" stroke="#34d399" stroke-width="1.5"/>
+  <text x="360" y="386" text-anchor="middle" fill="#34d399" font-size="13" font-weight="700" letter-spacing="0.08em">EXPERTS</text>
+  <text x="360" y="407" text-anchor="middle" fill="#e2e8f0" font-size="11">Atlas &#183; Lingua &#183; Warren &#183; Joshua &#183; Aria</text>
+  <text x="360" y="424" text-anchor="middle" fill="#94a3b8" font-size="9">un metier dedie chacun</text>
+
+  <!-- Generalistes -->
+  <rect x="210" y="520" width="300" height="60" rx="10" fill="#0f172a"/>
+  <rect x="210" y="520" width="300" height="60" rx="10" fill="rgba(8,51,68,0.4)" stroke="#22d3ee" stroke-width="1.5"/>
+  <text x="360" y="543" text-anchor="middle" fill="#22d3ee" font-size="13" font-weight="700" letter-spacing="0.08em">GENERALISTES</text>
+  <text x="360" y="561" text-anchor="middle" fill="#e2e8f0" font-size="11">Orson &#183; Hermes &#8212; servent a la demande</text>
+
+  <!-- Legende -->
+  <line x1="210" y1="600" x2="240" y2="600" stroke="#64748b" stroke-width="2"/>
+  <text x="248" y="604" fill="#94a3b8" font-size="9">cascade hierarchique</text>
+  <line x1="400" y1="600" x2="430" y2="600" stroke="#fbbf24" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="438" y="604" fill="#94a3b8" font-size="9">supervision gouvernance, double sens</text>
+</svg>

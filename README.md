@@ -20,18 +20,7 @@ démonstration.
 
 ## Organigramme
 
-```mermaid
-flowchart TB
-    G[Gouvernance<br/>règles d'accès, traçabilité, audits]
-    CD[Comité de direction<br/>Morpheus · Trinity · Neo]
-    EX[Experts<br/>Atlas · Lingua · Warren · Joshua · Aria]
-    GN[Généralistes<br/>Orson · Hermes]
-    CD --> EX
-    EX --> GN
-    G <-.-> CD
-    G <-.-> EX
-    G <-.-> GN
-```
+![Organigramme : Gouvernance encadrant Comité de direction, Experts, Généralistes](assets/organigramme.svg)
 
 Trois niveaux, pas deux cercles côte à côte : le Comité de direction pilote
 et arbitre, les Experts ont chacun un métier dédié, les Généralistes
