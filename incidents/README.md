@@ -2,9 +2,11 @@
 
 # Incidents, en profondeur
 
-Dix-neuf incidents réels, troisième vague d'une série qui s'enrichira
-progressivement, chacun selon le même gabarit : Problème, Symptômes,
-Conséquences, Solution, Règle qui en découle.
+Vingt-cinq incidents réels, sur les 27 retrouvés depuis février 2026.
+Les deux derniers restent volontairement non publiés : l'un implique le
+genre d'un collègue réel décrit à tort, l'autre un oubli de mail nommant
+mon employeur de mission. Chaque incident suit le même gabarit :
+Problème, Symptômes, Conséquences, Solution, Règle qui en découle.
 
 1. [Recherche bloquante](01-recherche-bloquante.md), 3 mai 2026
 2. [Protocole inventé](02-protocole-invente.md), 3 mai 2026
@@ -25,9 +27,15 @@ Conséquences, Solution, Règle qui en découle.
 17. [Signaux automatiques, bruit](17-signaux-automatiques-bruit.md), 30 avril au 1er mai 2026
 18. [Livraison non vérifiée](18-livraison-non-verifiee.md), 21-22 mai 2026
 19. [Contenu sensible, fuite](19-contenu-sensible-fuite.md), 14 avril 2026
+20. [Automatisation hors canal](20-automatisation-hors-canal.md), 20-23 avril 2026
+21. [Convention cassée](21-convention-cassee.md), 23 avril 2026
+22. [Casse non respectée](22-casse-non-respectee.md), 23 avril 2026
+23. [Format illisible sur mobile](23-format-illisible-mobile.md), 30 avril 2026
+24. [Gabarit non respecté](24-gabarit-non-respecte.md), 26 mai 2026
+25. [Exercice faussé](25-exercice-fausse.md), 18 mai 2026
 
-D'autres incidents viendront s'ajouter par vagues. Ce dépôt est vivant, pas
-un instantané figé.
+Ce dépôt est vivant, pas un instantané figé : tout nouvel incident
+rencontré s'y ajoutera.
 
 ---
 
