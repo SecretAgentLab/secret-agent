@@ -4,8 +4,14 @@
 
 A system of 10 specialized AI agents that I design and run every day since
 February 2026. I am not a trained developer: I come from IT support, nine
-years on the field. This repository shows the architecture, the rules, and
-what broke along the way, not a demo.
+years on the field.
+
+**What you'll find here:** real incidents documented with their cause and
+fix (`## What broke`), a full case study PDF telling that story
+(`etude-de-cas.pdf`), real code that applies the governance rules described
+below (`code/`), and a security checklist you can copy for your own agent
+fleet (`gouvernance/regles-a-copier.md`). This repository shows the
+architecture, the rules, and what broke along the way, not a demo.
 
 ## Today's numbers (recounted on November 14, 2026)
 
@@ -55,11 +61,14 @@ explicit request. Stop rules exist for risky actions (never a mass send,
 never a deletion without confirmation, never reading certain credentials even
 if asked again later). Every action leaves a readable trace. Details and a
 real anonymized example: `gouvernance/matrice-acces.md` and
-`gouvernance/audit-exemple-anonymise.md`.
+`gouvernance/audit-exemple-anonymise.md`. The concrete rules that came out
+of it, copyable for your own fleet: `gouvernance/regles-a-copier.md`. Real
+code that applies these principles: `code/`.
 
 ## What broke
 
-Five real incidents, picked from 27 found since February 2026.
+Five real incidents, picked from 27 found since February 2026. The full
+story, told, in PDF: `etude-de-cas.pdf` (French).
 
 **May 3, 2026.** A file search was launched blocking in the main session
 instead of being detached in the background. *Cause*: no rule distinguished

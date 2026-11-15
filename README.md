@@ -4,9 +4,15 @@
 
 Un système de 10 agents IA spécialisés, que je conçois et j'exploite au
 quotidien depuis février 2026. Je ne suis pas développeur de formation : je
-viens du support informatique, neuf ans de terrain. Ce dépôt montre
-l'architecture, les règles et ce qui a cassé en cours de route, pas une
-démonstration.
+viens du support informatique, neuf ans de terrain.
+
+**Ce que vous trouverez ici :** des incidents réels documentés avec leur
+cause et leur correctif (`## Ce qui a cassé`), une étude de cas complète en
+PDF racontant ces échecs (`etude-de-cas.pdf`), du code réel qui applique les
+règles de gouvernance décrites plus bas (`code/`), et une checklist de
+sécurité à copier pour votre propre flotte d'agents
+(`gouvernance/regles-a-copier.md`). Ce dépôt montre l'architecture, les
+règles et ce qui a cassé en cours de route, pas une démonstration.
 
 ## Les chiffres du jour (recomptés le 14 novembre 2026)
 
@@ -57,10 +63,14 @@ d'envoi de masse, jamais de suppression sans confirmation, jamais de lecture
 de certains identifiants même si je le redemande plus tard). Chaque action
 laisse une trace relisible. Détail et exemple réel anonymisé :
 `gouvernance/matrice-acces.md` et `gouvernance/audit-exemple-anonymise.md`.
+Les règles concrètes qui en découlent, copiables pour votre propre flotte :
+`gouvernance/regles-a-copier.md`. Du code réel qui applique ces principes :
+`code/`.
 
 ## Ce qui a cassé
 
 Cinq incidents réels, choisis parmi 27 retrouvés depuis février 2026.
+L'histoire complète, racontée, en PDF : `etude-de-cas.pdf`.
 
 **03 mai 2026.** Une recherche de fichiers a été lancée en blocage dans la
 session principale au lieu d'être détachée en arrière-plan. *Cause* : aucune
