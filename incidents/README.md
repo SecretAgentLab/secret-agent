@@ -2,7 +2,7 @@
 
 # Incidents, en profondeur
 
-Sept incidents réels, premier lot d'une série qui s'enrichira
+Treize incidents réels, deuxième vague d'une série qui s'enrichira
 progressivement, chacun selon le même gabarit : Problème, Symptômes,
 Conséquences, Solution, Règle qui en découle.
 
@@ -13,6 +13,12 @@ Conséquences, Solution, Règle qui en découle.
 5. [Bibliothèque silencieuse](05-bibliotheque-silencieuse.md), 14 novembre 2026
 6. [Pare-feu silencieux](06-parefeu-silencieux.md), 15 novembre 2026
 7. [Identifiant partagé](07-identifiant-partage.md), 15 novembre 2026
+8. [Mémoire héritée](08-memoire-heritee.md), avant le 15 octobre 2026
+9. [Renommage dangereux](09-renommage-dangereux.md), 15 octobre 2026
+10. [Réaffectation de modèles](10-reaffectation-modeles.md), 23 août au 15 octobre 2026
+11. [Verbosité non mesurée](11-verbosite-non-mesuree.md), 18 mai 2026
+12. [Nom de fichier générique](12-nom-fichier-generique.md), 23 avril 2026
+13. [Session sans contexte](13-session-sans-contexte.md), 18 mai 2026
 
 D'autres incidents viendront s'ajouter par vagues. Ce dépôt est vivant, pas
 un instantané figé.
