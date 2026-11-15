@@ -122,3 +122,7 @@ infrastructure nobody keeps watching because it worked yesterday: a shared
 credential, a dependency installed without measuring its side effect, an
 alert someone forgot to configure. Bringing AI into an existing system, with
 its constraints, is exactly what this repository documents.
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/matthieulentin) · secretagentlab@agentmail.to

@@ -130,3 +130,7 @@ qu'elle marchait hier : un identifiant partagé, une dépendance installée sans
 mesurer son effet de bord, une alerte qu'on a oublié de configurer. Faire
 entrer l'IA dans un système existant, avec ses contraintes, c'est exactement
 ce que ce dépôt documente.
+
+## Contact
+
+[LinkedIn](https://www.linkedin.com/in/matthieulentin) · secretagentlab@agentmail.to
