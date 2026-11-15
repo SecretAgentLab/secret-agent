@@ -2,11 +2,10 @@
 
 # Incidents, en profondeur
 
-Vingt-cinq incidents réels, sur les 27 retrouvés depuis février 2026.
-Les deux derniers restent volontairement non publiés : l'un implique le
-genre d'un collègue réel décrit à tort, l'autre un oubli de mail nommant
-mon employeur de mission. Chaque incident suit le même gabarit :
-Problème, Symptômes, Conséquences, Solution, Règle qui en découle.
+25 incidents réels, sur les 27 retrouvés depuis février 2026.
+Les deux derniers restent volontairement non publiés, pour des raisons
+confidentielles. Chaque incident suit le même gabarit : Problème,
+Symptômes, Conséquences, Solution, Règle qui en découle.
 
 1. [Recherche bloquante](01-recherche-bloquante.md), 3 mai 2026
 2. [Protocole inventé](02-protocole-invente.md), 3 mai 2026
