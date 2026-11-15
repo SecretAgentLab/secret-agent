@@ -24,6 +24,13 @@ règles et ce qui a cassé en cours de route, pas une démonstration.
 | Tâches planifiées actives (33 au total, 2 en pause) | 31 |
 | Fiches de connaissance (wiki interne) | 81 |
 
+## Les 10 agents
+
+[Morpheus](agents/morpheus.md) · [Trinity](agents/trinity.md) ·
+[Neo](agents/neo.md) · [Atlas](agents/atlas.md) · [Lingua](agents/lingua.md) ·
+[Warren](agents/warren.md) · [Joshua](agents/joshua.md) ·
+[Aria](agents/aria.md) · [Orson](agents/orson.md) · [Hermes](agents/hermes.md)
+
 ## Organigramme
 
 ![Organigramme : Gouvernance encadrant Comité de direction, Experts, Généralistes](assets/organigramme.svg)

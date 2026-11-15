@@ -23,6 +23,13 @@ architecture, the rules, and what broke along the way, not a demo.
 | Active scheduled tasks (33 total, 2 paused) | 31 |
 | Internal wiki entries | 81 |
 
+## The 10 agents
+
+[Morpheus](agents/morpheus.md) · [Trinity](agents/trinity.md) ·
+[Neo](agents/neo.md) · [Atlas](agents/atlas.md) · [Lingua](agents/lingua.md) ·
+[Warren](agents/warren.md) · [Joshua](agents/joshua.md) ·
+[Aria](agents/aria.md) · [Orson](agents/orson.md) · [Hermes](agents/hermes.md)
+
 ## Org chart
 
 ![Org chart: Governance overseeing Leadership committee, Experts, Generalists](assets/organigramme.svg)
