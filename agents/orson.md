@@ -6,8 +6,9 @@
 ## Mission
 
 Rédiger et tenir à jour la documentation transverse : procédures, guides
-d'usage, fiches de référence. Ne porte pas de projet propre, sert les deux
-cercles à la demande.
+d'usage, fiches de référence. Ne porte pas de métier propre, sert les Experts
+et le Comité de direction à la demande, classé Généraliste au même titre
+qu'Hermes.
 
 ## Périmètre
 

@@ -21,25 +21,29 @@ what broke along the way, not a demo.
 
 ```mermaid
 flowchart TB
-    subgraph C1["Architecture & Execution circle"]
-        T[Trinity<br/>architecture, design]
-        M[Morpheus<br/>direction, arbitration]
-        N[Neo<br/>execution, testing]
-    end
-    subgraph C2["Personal life circle"]
-        A[Atlas<br/>fitness coaching]
-        L[Lingua<br/>language coaching]
-        W[Warren<br/>personal finance]
-        J[Joshua<br/>support]
-        AR[Aria<br/>career coaching]
-    end
-    O[Orson<br/>documentation & procedures]
-    H[Hermes<br/>generalist, entry point]
-    O -.serves.-> C1
-    O -.serves.-> C2
-    H -.serves.-> C1
-    H -.serves.-> C2
+    G[Governance<br/>access rules, traceability, audits]
+    CD[Leadership committee<br/>Morpheus · Trinity · Neo]
+    EX[Experts<br/>Atlas · Lingua · Warren · Joshua · Aria]
+    GN[Generalists<br/>Orson · Hermes]
+    CD --> EX
+    EX --> GN
+    G <-.-> CD
+    G <-.-> EX
+    G <-.-> GN
 ```
+
+Three levels, not two side-by-side circles: the leadership committee steers
+and arbitrates, Experts each own a dedicated domain, Generalists (Orson,
+Hermes) have no domain of their own and serve on demand. Governance
+oversees all three levels both ways: no agent is above the audit, the
+leadership committee included.
+
+One agent only, Trinity, can ask another agent a precise question without
+handing it a full task: Neo for simple execution, a Generalist on demand,
+or Morpheus for reinforced judgment. The agent asked always answers with
+its real expertise; if it is the wrong fit, it says so and recommends
+another agent, and I validate the next one myself, never a self-redirecting
+chain. Every call is logged.
 
 Each agent has its own scope, its own memory, and does not see the other
 agents' data by default. Access details: `gouvernance/matrice-acces.md`.

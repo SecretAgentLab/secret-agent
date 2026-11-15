@@ -22,25 +22,29 @@ démonstration.
 
 ```mermaid
 flowchart TB
-    subgraph C1["Cercle Architecture & Exécution"]
-        T[Trinity<br/>architecture, conception]
-        M[Morpheus<br/>direction, arbitrages]
-        N[Neo<br/>exécution, tests]
-    end
-    subgraph C2["Cercle Vie personnelle"]
-        A[Atlas<br/>coaching sportif]
-        L[Lingua<br/>coaching langue]
-        W[Warren<br/>finances personnelles]
-        J[Joshua<br/>accompagnement]
-        AR[Aria<br/>coaching carrière]
-    end
-    O[Orson<br/>documentation & procédures]
-    H[Hermes<br/>généraliste, point d'entrée]
-    O -.sert.-> C1
-    O -.sert.-> C2
-    H -.sert.-> C1
-    H -.sert.-> C2
+    G[Gouvernance<br/>règles d'accès, traçabilité, audits]
+    CD[Comité de direction<br/>Morpheus · Trinity · Neo]
+    EX[Experts<br/>Atlas · Lingua · Warren · Joshua · Aria]
+    GN[Généralistes<br/>Orson · Hermes]
+    CD --> EX
+    EX --> GN
+    G <-.-> CD
+    G <-.-> EX
+    G <-.-> GN
 ```
+
+Trois niveaux, pas deux cercles côte à côte : le Comité de direction pilote
+et arbitre, les Experts ont chacun un métier dédié, les Généralistes
+(Orson, Hermes) n'ont pas de métier propre et servent à la demande. La
+Gouvernance encadre les trois niveaux à double sens : aucun agent n'est
+au-dessus de l'audit, le Comité de direction compris.
+
+Un seul agent, Trinity, peut solliciter un autre agent pour une question
+précise sans lui confier une tâche entière : Neo pour une exécution simple,
+un Généraliste à la demande, ou Morpheus pour un jugement renforcé. L'agent sollicité répond toujours avec son expertise réelle ; s'il
+estime ne pas être le bon interlocuteur, il le dit et recommande un autre
+agent, et c'est moi qui valide le suivant, jamais une chaîne d'agents qui se
+redirige seule. Chaque appel est tracé.
 
 Chaque agent a son propre périmètre, sa propre mémoire, et ne voit pas les
 données des autres par défaut. Détail des accès : `gouvernance/matrice-acces.md`.
